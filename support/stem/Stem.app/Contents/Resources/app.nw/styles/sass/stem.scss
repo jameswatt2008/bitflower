@@ -1,0 +1,34 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+$dark-blue: #003159;
+
+body {
+  background-color: $dark-blue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: white;
+  font-family: Helvetica, Arial;
+  text-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.primary-container {
+  @include outer-container;
+  @include span-columns(12);
+
+  text-align:center;
+
+  > h1 {
+    font-size:48px;
+    img {
+      width: 128px;
+      margin-bottom:-48px;
+
+      &.flipped {
+        @include transform(scaleX(-1));
+      }
+    }
+  }
+}

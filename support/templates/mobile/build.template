@@ -1,0 +1,16 @@
+return {
+  name = '{{name}}',
+  orientations = 'all',
+  devices = 'universal',
+
+  version = '0.1',
+
+  ios = {
+    -- there must be valid ad-hoc and distribution provisioning profiles for
+    -- this bundle in order for deploy/release to work
+    bundle_id = 'com.example.id',
+    
+    -- useful in development
+    exit_on_suspend = true
+  } 
+}

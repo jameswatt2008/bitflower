@@ -1,0 +1,13 @@
+{
+  "name": "Stem",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 1024,
+    "height": 768,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "frame": true
+  }
+}

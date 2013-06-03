@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #003159;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: Helvetica, Arial;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.primary-container {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+}
+.primary-container:before, .primary-container:after {
+  content: " ";
+  display: table;
+}
+.primary-container:after {
+  clear: both;
+}
+.primary-container:last-child {
+  margin-right: 0;
+}
+.primary-container > h1 {
+  font-size: 48px;
+}
+.primary-container > h1 img {
+  width: 128px;
+  margin-bottom: -48px;
+}
+.primary-container > h1 img.flipped {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
